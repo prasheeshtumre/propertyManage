@@ -1,0 +1,26 @@
+/*
+city masters
+city pincode masters
+area masters
+*/
+
+.choose-pincode-label.active{
+    background-color: #fff;
+    position: absolute;
+    border: 1px solid #c9c8c8;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transition: 2s ease;
+    cursor: pointer;
+}
+.choose-pincode-label{
+    display: none;
+    cursor: default;
+}
+.choose-pincode-label-body{
+    position: relative;
+}
